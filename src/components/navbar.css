@@ -1,0 +1,43 @@
+.nav {
+    color: white;
+    background-color: #002147;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 50px;
+    font-size: 24px;
+}
+
+.menu-options {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    position: absolute;
+    right: 50px;
+}
+
+.menu-options li {
+    font-size: 18px;
+}
+
+.menu-options li a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.menu-options li a:hover {
+    color: #007BFF; 
+    text-decoration: underline;
+}
+
+.logo a{
+    color: white; 
+    text-decoration: none;
+}
